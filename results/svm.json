@@ -1,0 +1,36 @@
+{
+  "experiment": "svm",
+  "seed": 42,
+  "results": {
+    "training_rows": 120,
+    "test_rows": 30,
+    "selection": [
+      {
+        "C": 1.0,
+        "gamma": 0.01,
+        "validation_accuracy": 0.6583333333333333
+      },
+      {
+        "C": 1.0,
+        "gamma": 0.1,
+        "validation_accuracy": 0.9
+      },
+      {
+        "C": 10.0,
+        "gamma": 0.01,
+        "validation_accuracy": 0.775
+      },
+      {
+        "C": 10.0,
+        "gamma": 0.1,
+        "validation_accuracy": 0.9583333333333334
+      }
+    ],
+    "selected": {
+      "C": 10.0,
+      "gamma": 0.1,
+      "validation_accuracy": 0.9583333333333334
+    },
+    "test_accuracy": 0.9666666666666667
+  }
+}

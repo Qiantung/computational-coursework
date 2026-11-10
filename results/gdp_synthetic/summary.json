@@ -1,0 +1,27 @@
+{
+  "rows": 30,
+  "year": 2025,
+  "selected": {
+    "k": 2,
+    "silhouette": 0.5472987477823659
+  },
+  "candidates": [
+    {
+      "k": 2,
+      "silhouette": 0.5472987477823659
+    },
+    {
+      "k": 3,
+      "silhouette": 0.5351445292958924
+    },
+    {
+      "k": 4,
+      "silhouette": 0.5382579902499472
+    },
+    {
+      "k": 5,
+      "silhouette": 0.517088520198087
+    }
+  ],
+  "interpretation": "Descriptive clusters; labels have no ordinal meaning and are not economic development grades."
+}

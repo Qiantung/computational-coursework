@@ -1,0 +1,70 @@
+{
+  "experiment": "semi",
+  "seed": 42,
+  "results": [
+    {
+      "labeled_fraction": 0.05,
+      "labeled_rows": 71,
+      "supervised": {
+        "accuracy": 0.8055555555555556,
+        "macro_auc": 0.9665715267376658
+      },
+      "self_training": {
+        "accuracy": 0.8527777777777777,
+        "macro_auc": 0.9720255522731728
+      },
+      "label_propagation": {
+        "accuracy": 0.8388888888888889,
+        "macro_auc": 0.9832945805015637
+      }
+    },
+    {
+      "labeled_fraction": 0.1,
+      "labeled_rows": 143,
+      "supervised": {
+        "accuracy": 0.9083333333333333,
+        "macro_auc": 0.9916185776900889
+      },
+      "self_training": {
+        "accuracy": 0.9194444444444444,
+        "macro_auc": 0.99112460508387
+      },
+      "label_propagation": {
+        "accuracy": 0.9305555555555556,
+        "macro_auc": 0.9946351777820933
+      }
+    },
+    {
+      "labeled_fraction": 0.2,
+      "labeled_rows": 287,
+      "supervised": {
+        "accuracy": 0.9305555555555556,
+        "macro_auc": 0.9942307404983646
+      },
+      "self_training": {
+        "accuracy": 0.9277777777777778,
+        "macro_auc": 0.9929722635689441
+      },
+      "label_propagation": {
+        "accuracy": 0.95,
+        "macro_auc": 0.9957739546138409
+      }
+    },
+    {
+      "labeled_fraction": 0.3,
+      "labeled_rows": 431,
+      "supervised": {
+        "accuracy": 0.9277777777777778,
+        "macro_auc": 0.994583005127742
+      },
+      "self_training": {
+        "accuracy": 0.9305555555555556,
+        "macro_auc": 0.9953692024040608
+      },
+      "label_propagation": {
+        "accuracy": 0.9555555555555556,
+        "macro_auc": 0.9962091586416376
+      }
+    }
+  ]
+}
